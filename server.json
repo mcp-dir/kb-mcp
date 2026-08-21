@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/kb-mcp",
+  "title": "Base de Conhecimento",
+  "description": "Your private knowledge base: upload documents (.md, .txt, .docx, PDF, images), the platform indexes ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/kb-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_kb"
+    }
+  ]
+}
